@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-25T17:18:24 PST" name="Esales Suite" finished-at="2026-02-25T17:22:03 PST" duration-ms="219483">
+    <groups>
+    </groups>
+    <test started-at="2026-02-25T17:18:24 PST" name="Esales_Test" finished-at="2026-02-25T17:22:03 PST" duration-ms="219483">
+      <class name="com.example.my_maven_project.testcase.Login_Page_Testcase">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.example.my_maven_project.testcase.Login_Page_Testcase@5542c4ed]" started-at="2026-02-25T17:18:20 PST" name="Setup" finished-at="2026-02-25T17:18:24 PST" duration-ms="3443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="click_Right_Username_Password()[pri:7, instance:com.example.my_maven_project.testcase.Login_Page_Testcase@5542c4ed]" started-at="2026-02-25T17:18:24 PST" name="click_Right_Username_Password" finished-at="2026-02-25T17:19:28 PST" duration-ms="63798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_Right_Username_Password -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.example.my_maven_project.testcase.Login_Page_Testcase@5542c4ed]" started-at="2026-02-25T17:22:03 PST" name="teardown" finished-at="2026-02-25T17:22:04 PST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.example.my_maven_project.testcase.Login_Page_Testcase -->
+      <class name="com.example.my_maven_project.testcase.Product_Price_List_V2_Testcase">
+        <test-method signature="click_category_filter_proper_data()[pri:19, instance:com.example.my_maven_project.testcase.Product_Price_List_V2_Testcase@10683d9d]" started-at="2026-02-25T17:19:28 PST" name="click_category_filter_proper_data" finished-at="2026-02-25T17:21:21 PST" duration-ms="113756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_category_filter_proper_data -->
+        <test-method signature="click_product_type_filter_proper_data()[pri:20, instance:com.example.my_maven_project.testcase.Product_Price_List_V2_Testcase@10683d9d]" started-at="2026-02-25T17:21:21 PST" name="click_product_type_filter_proper_data" finished-at="2026-02-25T17:21:43 PST" duration-ms="21354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_product_type_filter_proper_data -->
+        <test-method signature="click_All_filter_proper_data()[pri:21, instance:com.example.my_maven_project.testcase.Product_Price_List_V2_Testcase@10683d9d]" started-at="2026-02-25T17:21:43 PST" name="click_All_filter_proper_data" finished-at="2026-02-25T17:22:03 PST" duration-ms="20481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_All_filter_proper_data -->
+      </class> <!-- com.example.my_maven_project.testcase.Product_Price_List_V2_Testcase -->
+    </test> <!-- Esales_Test -->
+  </suite> <!-- Esales Suite -->
+</testng-results>

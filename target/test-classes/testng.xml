@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Esales Suite">
+    <test name="Esales_Test">
+        <classes>
+           <class name="com.example.my_maven_project.testcase.Login_Page_Testcase"/> 
+			<!--<class name="com.example.my_maven_project.testcase.Dashboard_Testcase"/> 
+			<class name="com.example.my_maven_project.testcase.Product_productlist_Testcase"/> 
+			<class name="com.example.my_maven_project.testcase.Product_Category_Testcase"/> 
+			<class name="com.example.my_maven_project.testcase.Product_Measurement_Unit_Testcase"/> 
+			<class name="com.example.my_maven_project.testcase.Brand_List_Testcase"/> 
+			<class name="com.example.my_maven_project.testcase.Variant_List_Testcase"/> 
+			<class name="com.example.my_maven_project.testcase.Bonus_Card_Testcase"/> 
+			<class name="com.example.my_maven_project.testcase.Bonus_Card_Type_Testcase"/> -->
+			<class name="com.example.my_maven_project.testcase.Product_Price_List_V2_Testcase"/>
+        </classes>
+    </test>
+</suite>
