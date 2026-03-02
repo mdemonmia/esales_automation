@@ -107,7 +107,7 @@ public class Special_Group {
 			input_search.sendKeys(group);
 			
 			WebElement option_match=wait.until(ExpectedConditions.visibilityOfElementLocated(By
-					.xpath("//div[contains(@class,'chosen-container-active')]//input")));
+					.xpath("//div[contains(@class,'chosen-container-active')]//li[contains(@class,'active-result') and contains(normalize-space(),'" + group + "')]")));
 			option_match.click();
 			
 			click_og.click();

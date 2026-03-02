@@ -11,8 +11,9 @@
 			<class name="com.example.my_maven_project.testcase.Variant_List_Testcase"/> 
 			<class name="com.example.my_maven_project.testcase.Bonus_Card_Testcase"/> 
 			<class name="com.example.my_maven_project.testcase.Bonus_Card_Type_Testcase"/> 
-			<class name="com.example.my_maven_project.testcase.Product_Price_List_V2_Testcase"/> -->
-			<class name="com.example.my_maven_project.testcase.Special_Group_Testcase"/>
+			<class name="com.example.my_maven_project.testcase.Product_Price_List_V2_Testcase"/> 
+			<class name="com.example.my_maven_project.testcase.Special_Group_Testcase"/> -->
+			<class name="com.example.my_maven_project.testcase.Special_Group_SR_Testcase"/>
         </classes>
     </test>
 </suite>

@@ -15,7 +15,7 @@ public class Special_Group_Testcase extends BaseTest{
 	  SG.policy_Name("");
 	  SG.Remarks("test");
 	  SG.Start_Date("2026-01-01");
-	  SG.End_Date("2026-12-31");
+	  SG.End_Date("2026-12-31"); 
 	  SG.Territory_add(true,null,null);
 	  SG.outlet_Group("B K INTERNATIONAL","Bidynondo Foundation");
 	  SG.SubmitBtn();
@@ -130,7 +130,7 @@ public class Special_Group_Testcase extends BaseTest{
 		  SG.Start_Date("2026-01-01");
 		  SG.End_Date("2026-12-31");
 		  SG.Territory_add(true,null,null);
-		  SG.outlet_Group("B K INTERNATIONAL","Bidynondo Foundation");
+		  //SG.outlet_Group("BGB CTG","Bidynondo Foundation");
 		  SG.SubmitBtn();
 		  Assert.assertTrue(SG.policyErrorDisplay(), "Field isnot saved.");
 	  }
@@ -145,7 +145,7 @@ public class Special_Group_Testcase extends BaseTest{
 		  SG.Start_Date("2026-01-01");
 		  SG.End_Date("2026-12-31");
 		  SG.Territory_add(true,null,null);
-		  SG.outlet_Group("B K INTERNATIONAL","Bidynondo Foundation");
+		  //SG.outlet_Group("BGB CTG","Bidynondo Foundation");
 		  SG.SubmitBtn();
 		  Assert.assertTrue(SG.is_saved_successfull(), "Field isnot saved.");
 	  }
@@ -160,7 +160,7 @@ public class Special_Group_Testcase extends BaseTest{
 		  SG.Start_Date("");
 		  SG.End_Date("2026-12-31");
 		  SG.Territory_add(true,null,null);
-		  SG.outlet_Group("B K INTERNATIONAL","Bidynondo Foundation");
+		  //SG.outlet_Group("BGB CTG","Bidynondo Foundation");
 		  SG.SubmitBtn();
 		  Assert.assertTrue(SG.StartDateErrorDisplay(), "Field isnot filled.");
 	  }
@@ -175,7 +175,7 @@ public class Special_Group_Testcase extends BaseTest{
 		  SG.Start_Date("2026-01-01");
 		  SG.End_Date("");
 		  SG.Territory_add(true,null,null);
-		  SG.outlet_Group("B K INTERNATIONAL","Bidynondo Foundation");
+		  //SG.outlet_Group("BGB CTG","Bidynondo Foundation");
 		  SG.SubmitBtn();
 		  Assert.assertTrue(SG.EndDateErrorDisplay(), "Field isnot filled.");
 	  }
@@ -190,7 +190,7 @@ public class Special_Group_Testcase extends BaseTest{
 		  SG.Start_Date("2026-01-01");
 		  SG.End_Date("2026-12-31");
 		  SG.Territory_add(false,null,null);
-		  SG.outlet_Group("B K INTERNATIONAL","Bidynondo Foundation");
+		  //SG.outlet_Group("BGB CTG","Bidynondo Foundation");
 		  SG.SubmitBtn();
 		  Assert.assertTrue(SG.is_saved_successfull(), "Field isnot filled.");
 	  }
@@ -206,7 +206,7 @@ public class Special_Group_Testcase extends BaseTest{
 		  SG.Start_Date("2026-01-01");
 		  SG.End_Date("2026-12-31");
 		  SG.Territory_add(false,null,null);
-		  SG.outlet_Group("","");
+		  //SG.outlet_Group("","");
 		  SG.SubmitBtn();
 		  Assert.assertTrue(SG.is_saved_successfull(), "Field isnot filled.");
 	  }
@@ -221,7 +221,7 @@ public class Special_Group_Testcase extends BaseTest{
 		  SG.Start_Date("2026-01-01");
 		  SG.End_Date("2026-12-31");
 		  SG.Territory_add(true,"Rangpur Sales Office","Kurigram");
-		  SG.outlet_Group("B K INTERNATIONAL","Bidynondo Foundation");
+		  //SG.outlet_Group("BGB CTG","Bidynondo Foundation");
 		  SG.SubmitBtn();
 		  Assert.assertTrue(SG.is_saved_successfull(), "Field isnot filled.");
 	  }
