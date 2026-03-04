@@ -3,13 +3,13 @@
 <suite name="Failed suite [Esales Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Esales_Test(failed)">
     <classes>
-      <class name="com.example.my_maven_project.testcase.Special_Group_SR_Testcase">
+      <class name="com.example.my_maven_project.testcase.Vat_Executing_Testcase">
         <methods>
+          <include name="click_valid_Product_Other_Field_Proper_Data"/>
           <include name="teardown"/>
           <include name="Setup"/>
-          <include name="click_Delete_True_Special_Group_SR"/>
         </methods>
-      </class> <!-- com.example.my_maven_project.testcase.Special_Group_SR_Testcase -->
+      </class> <!-- com.example.my_maven_project.testcase.Vat_Executing_Testcase -->
     </classes>
   </test> <!-- Esales_Test(failed) -->
 </suite> <!-- Failed suite [Esales Suite] -->
