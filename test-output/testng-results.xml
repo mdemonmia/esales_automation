@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-04T05:28:45 PST" name="Esales Suite" finished-at="2026-03-04T05:30:12 PST" duration-ms="87643">
+  <suite started-at="2026-03-09T05:32:50 BDT" name="Esales Suite" finished-at="2026-03-09T05:35:10 BDT" duration-ms="139380">
     <groups>
     </groups>
-    <test started-at="2026-03-04T05:28:45 PST" name="Esales_Test" finished-at="2026-03-04T05:30:12 PST" duration-ms="87643">
+    <test started-at="2026-03-09T05:32:50 BDT" name="Esales_Test" finished-at="2026-03-09T05:35:10 BDT" duration-ms="139380">
       <class name="com.example.my_maven_project.testcase.Login_Page_Testcase">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.example.my_maven_project.testcase.Login_Page_Testcase@815b41f]" started-at="2026-03-04T05:28:42 PST" name="Setup" finished-at="2026-03-04T05:28:45 PST" duration-ms="3170" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.example.my_maven_project.testcase.Login_Page_Testcase@815b41f]" started-at="2026-03-09T05:32:48 BDT" name="Setup" finished-at="2026-03-09T05:32:50 BDT" duration-ms="2634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="click_Right_Username_Password()[pri:7, instance:com.example.my_maven_project.testcase.Login_Page_Testcase@815b41f]" started-at="2026-03-04T05:28:45 PST" name="click_Right_Username_Password" finished-at="2026-03-04T05:29:18 PST" duration-ms="33396" status="PASS">
+        <test-method signature="click_Right_Username_Password()[pri:7, instance:com.example.my_maven_project.testcase.Login_Page_Testcase@815b41f]" started-at="2026-03-09T05:32:50 BDT" name="click_Right_Username_Password" finished-at="2026-03-09T05:33:48 BDT" duration-ms="58061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_Right_Username_Password -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.example.my_maven_project.testcase.Login_Page_Testcase@815b41f]" started-at="2026-03-04T05:30:13 PST" name="teardown" finished-at="2026-03-04T05:30:13 PST" duration-ms="342" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.example.my_maven_project.testcase.Login_Page_Testcase@815b41f]" started-at="2026-03-09T05:35:10 BDT" name="teardown" finished-at="2026-03-09T05:35:10 BDT" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.example.my_maven_project.testcase.Login_Page_Testcase -->
-      <class name="com.example.my_maven_project.testcase.Vat_Executing_Testcase">
-        <test-method signature="click_valid_Product_Other_Field_Proper_Data()[pri:6, instance:com.example.my_maven_project.testcase.Vat_Executing_Testcase@1f2586d6]" started-at="2026-03-04T05:29:18 PST" name="click_valid_Product_Other_Field_Proper_Data" finished-at="2026-03-04T05:30:12 PST" duration-ms="53908" status="PASS">
+      <class name="com.example.my_maven_project.testcase.Return_Challan_SO_ASO_Testcase">
+        <test-method signature="click_valid_To_DateFilter()[pri:6, instance:com.example.my_maven_project.testcase.Return_Challan_SO_ASO_Testcase@1f2586d6]" started-at="2026-03-09T05:33:48 BDT" name="click_valid_To_DateFilter" finished-at="2026-03-09T05:34:42 BDT" duration-ms="53384" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- click_valid_Product_Other_Field_Proper_Data -->
-      </class> <!-- com.example.my_maven_project.testcase.Vat_Executing_Testcase -->
+        </test-method> <!-- click_valid_To_DateFilter -->
+        <test-method signature="click_valid_AllFilter()[pri:7, instance:com.example.my_maven_project.testcase.Return_Challan_SO_ASO_Testcase@1f2586d6]" started-at="2026-03-09T05:34:42 BDT" name="click_valid_AllFilter" finished-at="2026-03-09T05:35:10 BDT" duration-ms="27818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_valid_AllFilter -->
+      </class> <!-- com.example.my_maven_project.testcase.Return_Challan_SO_ASO_Testcase -->
     </test> <!-- Esales_Test -->
   </suite> <!-- Esales Suite -->
 </testng-results>

@@ -14,8 +14,11 @@
 			<class name="com.example.my_maven_project.testcase.Product_Price_List_V2_Testcase"/> 
 			<class name="com.example.my_maven_project.testcase.Special_Group_Testcase"/> 
 			<class name="com.example.my_maven_project.testcase.Special_Group_SR_Testcase"/> 
-			<class name="com.example.my_maven_project.testcase.Discount_Bonus_Policy_Testcase"/> -->
-			<class name="com.example.my_maven_project.testcase.Vat_Executing_Testcase"/>
+			<class name="com.example.my_maven_project.testcase.Discount_Bonus_Policy_Testcase"/> 
+			<class name="com.example.my_maven_project.testcase.Vat_Executing_Testcase"/> 
+			<class name="com.example.my_maven_project.testcase.NCP_Replacement_Settings_Testcase"/> 
+			<class name="com.example.my_maven_project.testcase.CT_Return_Challan_Testcase"/> -->
+			<class name="com.example.my_maven_project.testcase.Return_Challan_SO_ASO_Testcase"/>
         </classes>
     </test>
 </suite>
