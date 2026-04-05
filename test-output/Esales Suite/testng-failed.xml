@@ -3,21 +3,13 @@
 <suite name="Failed suite [Esales Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Esales_Test(failed)">
     <classes>
-      <class name="com.example.my_maven_project.testcase.Login_Page_Testcase">
+      <class name="com.example.my_maven_project.testcase.Transfer_ThanaTestCase">
         <methods>
-          <include name="click_Right_Username_Password"/>
+          <include name="all_fields_valid"/>
           <include name="teardown"/>
           <include name="Setup"/>
         </methods>
-      </class> <!-- com.example.my_maven_project.testcase.Login_Page_Testcase -->
-      <class name="com.example.my_maven_project.testcase.CT_Return_Challan_Testcase">
-        <methods>
-          <include name="click_Valid_AllFilter"/>
-          <include name="teardown"/>
-          <include name="Setup"/>
-          <include name="click_Valid_SAP_StatusFilter"/>
-        </methods>
-      </class> <!-- com.example.my_maven_project.testcase.CT_Return_Challan_Testcase -->
+      </class> <!-- com.example.my_maven_project.testcase.Transfer_ThanaTestCase -->
     </classes>
   </test> <!-- Esales_Test(failed) -->
 </suite> <!-- Failed suite [Esales Suite] -->
