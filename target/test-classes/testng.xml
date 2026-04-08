@@ -24,8 +24,9 @@
 			<class name="com.example.my_maven_project.testcase.National_Sales_Target_Testcase"/> 
 			<class name="com.example.my_maven_project.testcase.Division_Testcase"/> 
 			<class name="com.example.my_maven_project.testcase.District_TestCase"/> 
-			<class name="com.example.my_maven_project.testcase.ThanaTestcase"/> -->
-			<class name="com.example.my_maven_project.testcase.Transfer_ThanaTestCase"/>
+			<class name="com.example.my_maven_project.testcase.ThanaTestcase"/> 
+			<class name="com.example.my_maven_project.testcase.Transfer_ThanaTestCase"/> -->
+			<class name="com.example.my_maven_project.testcase.MarketTestCase"/>
         </classes>
     </test>
 </suite>
