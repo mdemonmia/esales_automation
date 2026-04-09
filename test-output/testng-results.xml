@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-08T23:27:15 BDT" name="Esales Suite" finished-at="2026-04-08T23:27:53 BDT" duration-ms="37261">
+  <suite started-at="2026-04-09T23:30:41 BDT" name="Esales Suite" finished-at="2026-04-09T23:31:16 BDT" duration-ms="35109">
     <groups>
     </groups>
-    <test started-at="2026-04-08T23:27:15 BDT" name="Esales_Test" finished-at="2026-04-08T23:27:53 BDT" duration-ms="37261">
+    <test started-at="2026-04-09T23:30:41 BDT" name="Esales_Test" finished-at="2026-04-09T23:31:16 BDT" duration-ms="35109">
       <class name="com.example.my_maven_project.testcase.Login_Page_Testcase">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.example.my_maven_project.testcase.Login_Page_Testcase@3b69e7d1]" started-at="2026-04-08T23:27:13 BDT" name="Setup" finished-at="2026-04-08T23:27:15 BDT" duration-ms="2526" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.example.my_maven_project.testcase.Login_Page_Testcase@3b69e7d1]" started-at="2026-04-09T23:30:38 BDT" name="Setup" finished-at="2026-04-09T23:30:41 BDT" duration-ms="2365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="click_Right_Username_Password()[pri:7, instance:com.example.my_maven_project.testcase.Login_Page_Testcase@3b69e7d1]" started-at="2026-04-08T23:27:16 BDT" name="click_Right_Username_Password" finished-at="2026-04-08T23:27:25 BDT" duration-ms="9379" status="PASS">
+        <test-method signature="click_Right_Username_Password()[pri:7, instance:com.example.my_maven_project.testcase.Login_Page_Testcase@3b69e7d1]" started-at="2026-04-09T23:30:41 BDT" name="click_Right_Username_Password" finished-at="2026-04-09T23:30:55 BDT" duration-ms="14053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_Right_Username_Password -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.example.my_maven_project.testcase.Login_Page_Testcase@3b69e7d1]" started-at="2026-04-08T23:27:53 BDT" name="teardown" finished-at="2026-04-08T23:27:53 BDT" duration-ms="347" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.example.my_maven_project.testcase.Login_Page_Testcase@3b69e7d1]" started-at="2026-04-09T23:31:16 BDT" name="teardown" finished-at="2026-04-09T23:31:17 BDT" duration-ms="523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.example.my_maven_project.testcase.Login_Page_Testcase -->
-      <class name="com.example.my_maven_project.testcase.MarketTestCase">
-        <test-method signature="fill_all_field_search_reset()[pri:8, instance:com.example.my_maven_project.testcase.MarketTestCase@2f4948e4]" started-at="2026-04-08T23:27:25 BDT" name="fill_all_field_search_reset" finished-at="2026-04-08T23:27:53 BDT" duration-ms="27765" status="PASS">
+      <class name="com.example.my_maven_project.testcase.Market_TransferTestcase">
+        <test-method signature="click_office_field_valid()[pri:1, instance:com.example.my_maven_project.testcase.Market_TransferTestcase@2f4948e4]" started-at="2026-04-09T23:30:55 BDT" name="click_office_field_valid" finished-at="2026-04-09T23:31:16 BDT" duration-ms="20885" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fill_all_field_search_reset -->
-      </class> <!-- com.example.my_maven_project.testcase.MarketTestCase -->
+        </test-method> <!-- click_office_field_valid -->
+      </class> <!-- com.example.my_maven_project.testcase.Market_TransferTestcase -->
     </test> <!-- Esales_Test -->
   </suite> <!-- Esales Suite -->
 </testng-results>

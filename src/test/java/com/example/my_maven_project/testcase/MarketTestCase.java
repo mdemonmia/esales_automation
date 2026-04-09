@@ -9,7 +9,7 @@ import com.example.my_maven_project.Market;
 public class MarketTestCase extends BaseTest{
   @Test(priority=1)
   public void click_all_field_valid() throws InterruptedException {
-	  driver.get("http://202.126.123.157/esales_live/admin/markets/");
+	  driver.get("http://202.126.123.157/esales_live/admin/markets/"); 
 	  Market market=new Market(driver);
 	  market.Add_Market();
 	  market.Name("Sobujbag");
